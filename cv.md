@@ -76,3 +76,11 @@ function otherAngle(a, b) {
 1. Head First JavaScript, by Michael Morrison.
 2. Head First HTML and CSS, by Freeman E., Robson E.
 3. JavaScript for Kids: A Playful Introduction to Programming, by Nick Morgan.
+
+## Languages:
+
+**English level:** A1
+
+(I have learned English for beginners using ESHKO tutorial and continue to learn English in Duolingo).
+
+I can speak English and sometimes use a google translate.
