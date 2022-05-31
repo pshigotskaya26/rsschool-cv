@@ -70,3 +70,9 @@ function otherAngle(a, b) {
 * JavaScript tutorial on learn.javascript.ru (in progress).
 
 * RS School Course "JS / Front-end, stage 0" (in progress).
+
+### **The books I have read and completed all the tasks in them:**
+
+1. Head First JavaScript, by Michael Morrison.
+2. Head First HTML and CSS, by Freeman E., Robson E.
+3. JavaScript for Kids: A Playful Introduction to Programming, by Nick Morgan.
