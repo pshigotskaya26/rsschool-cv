@@ -47,3 +47,14 @@ function otherAngle(a, b) {
 ## Work experience:
 
 [https://pshigotskaya26.github.io/rsschool-cv/cv](https://pshigotskaya26.github.io/rsschool-cv/cv)
+
+## Education and courses:
+
+### **Education:**
+
+* International Sakharov Environmental Institute of Belarusian State University.
+
+    + Information Systems and Technologies (in ecology)
+
+
+* Institute of Information Technologies BSUIR.
