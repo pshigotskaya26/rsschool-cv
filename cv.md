@@ -58,3 +58,15 @@ function otherAngle(a, b) {
 
 
 * Institute of Information Technologies BSUIR.
+
+### **Courses:**
+
+* Course "JavaScript web-programming" (Learning technology center), 2016 year.
+
+* Course "Contextual advertising in the Internet (Yandex Direct, Google AdWords)" (International Education Center "Status"), 2015 year.
+
+* Course "React JS – the samurai way" on YouTube channel It-kamasutra (in progress).
+
+* JavaScript tutorial on learn.javascript.ru (in progress).
+
+* RS School Course "JS / Front-end, stage 0" (in progress).
