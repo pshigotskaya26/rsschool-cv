@@ -30,3 +30,17 @@ I am responsible for the performance of my work. I can work in multitasking and 
 * SublimeText, VSCode, WebShtorm
 * Wordpress
 * Photoshop
+
+## Code example:
+
+**The task from Codewars:**
+
+*You are given two interior angles (in degrees) of a triangle. Write a function to return the 3rd. Note: only positive integers will be tested.*
+
+**The solution of the task:**
+```
+function otherAngle(a, b) {
+  let sumAngles = 180;
+  return (sumAngles - a - b);
+}
+```
