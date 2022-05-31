@@ -44,3 +44,6 @@ function otherAngle(a, b) {
   return (sumAngles - a - b);
 }
 ```
+## Work experience:
+
+[https://pshigotskaya26.github.io/rsschool-cv/cv](https://pshigotskaya26.github.io/rsschool-cv/cv)
