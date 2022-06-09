@@ -113,7 +113,8 @@ ul {
 .skills,
 .projects,
 .code,
-.contacts {
+.contacts,
+.education {
 	padding-bottom: 45px;
 }
 
@@ -131,6 +132,29 @@ ul {
 
 .contacts__item i {
 	color: #24c3d3;
+}
+
+.education__block {
+	padding-bottom: 20px;
+}
+
+.education__block p {
+	padding-bottom: 10px;
+}
+
+.education__date {
+	font-weight: bold;
+	color: #24c3d3;
+}
+
+.education__place {
+	text-align: justify;
+	color :#454040;
+}
+
+.education__speciality {
+	text-align: justify;
+	color: #959395;
 }
 
 .section-title {
