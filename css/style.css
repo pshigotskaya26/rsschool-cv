@@ -341,3 +341,38 @@ code {
 		order: 2;
 	}
 }
+
+@media (max-width: 767px) {
+
+	.photo__block {
+		display: none;
+	}
+	.content__block {
+		display: block;
+	}
+
+	.main {
+		grid-auto-flow: row;
+	}
+
+	.sidebar {
+		order: 2;
+	}
+
+	.content {
+		order: 1;
+	}
+	.content-title {
+		text-align: center;
+	}
+
+	.content-text {
+		text-align: center;
+	}
+}
+
+@media (max-width: 640px) {
+	.header-navigation {
+		display: none;
+	}
+}
