@@ -94,17 +94,19 @@ ul {
 	color: #24c3d3;
 }
 
-.content__block {
-	display: none;
-}
 
-.content__block {
+
+.photo__block, .content__block {
 	padding-bottom: 40px;
 }
 
-.content__img {
+.photo__img, .content__img {
 	width: 100%;
 	height: auto;
+}
+
+.content__block {
+	display: none;
 }
 
 .about,
