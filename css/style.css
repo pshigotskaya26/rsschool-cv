@@ -114,7 +114,8 @@ ul {
 .projects,
 .code,
 .contacts,
-.education {
+.education,
+.courses {
 	padding-bottom: 45px;
 }
 
@@ -134,25 +135,30 @@ ul {
 	color: #24c3d3;
 }
 
-.education__block {
+.education__block,
+.courses__block {
 	padding-bottom: 20px;
 }
 
-.education__block p {
+.education__block p,
+.courses__block p {
 	padding-bottom: 10px;
 }
 
-.education__date {
+.education__date,
+.courses__date {
 	font-weight: bold;
 	color: #24c3d3;
 }
 
-.education__place {
+.education__place,
+.courses__course {
 	text-align: justify;
 	color :#454040;
 }
 
-.education__speciality {
+.education__speciality,
+.courses__place {
 	text-align: justify;
 	color: #959395;
 }
