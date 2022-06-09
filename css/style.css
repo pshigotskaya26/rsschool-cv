@@ -107,7 +107,8 @@ ul {
 	height: auto;
 }
 
-.about {
+.about,
+.skills {
 	padding-bottom: 45px;
 }
 
@@ -128,6 +129,41 @@ ul {
 
 .about-info p {
 	padding-top: 10px;
+}
+.skills-info {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	column-gap: 120px;
+	row-gap: 10px;
+}
+
+.skills-block {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr auto;
+	column-gap: 50px;
+}
+
+.skills-text {
+	text-transform: uppercase;
+}
+
+.skills-marker {
+	display: grid;
+	grid-auto-flow: column;
+	column-gap: 8px;
+	align-items: center;
+}
+
+.skills-marker__item {
+	width: 10px;
+	height: 10px;
+	background-color: #c8c7c6;
+	border-radius: 50%;
+}
+
+.skills-marker__item_color {
+	background-color: #24c3d3;
 }
 
 .footer {
