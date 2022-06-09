@@ -112,8 +112,25 @@ ul {
 .about,
 .skills,
 .projects,
-.code {
+.code,
+.contacts {
 	padding-bottom: 45px;
+}
+
+.contacts__info {
+	color: #454040;
+}
+
+.contacts__item {
+	padding-bottom: 15px;
+}
+
+.contacts__item a {
+	color: #454040;	
+}
+
+.contacts__item i {
+	color: #24c3d3;
 }
 
 .section-title {
@@ -125,6 +142,10 @@ ul {
 	text-transform: uppercase;
 	color: #454040;
 	border-bottom: 1px solid #dedbdb;
+}
+
+.section-title__sidebar {
+	border-bottom: 1px solid #000000;
 }
 
 .about-info {
