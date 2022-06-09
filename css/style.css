@@ -108,7 +108,8 @@ ul {
 }
 
 .about,
-.skills {
+.skills,
+.projects {
 	padding-bottom: 45px;
 }
 
@@ -164,6 +165,10 @@ ul {
 
 .skills-marker__item_color {
 	background-color: #24c3d3;
+}
+
+.projects-info a {
+	text-decoration: underline;
 }
 
 .footer {
