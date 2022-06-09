@@ -205,6 +205,44 @@ code {
 	color: #11a151;
 }
 
+.experience-item {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto;
+	grid-auto-flow: row;
+	padding-bottom: 50px;
+}
+
+.experience__title {
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	color: #24c3d3;
+}
+
+.experience__work {
+	display: grid;
+	grid-template-rows: 1fr;
+    grid-template-columns: 1fr auto;
+    column-gap: 30px;
+    padding-bottom: 15px;
+}
+
+.experience__workplace {
+	font-style: italic;
+	color: #787070;
+	font-weight: bold;
+}
+
+.experience__date {
+	font-style: italic;
+	color: #454040;
+}
+
+.experience__list {
+	list-style: circle;
+	padding-left: 60px;
+}
+
 .footer {
 	display: grid;
 	grid-area: footer;
