@@ -109,7 +109,8 @@ ul {
 
 .about,
 .skills,
-.projects {
+.projects,
+.code {
 	padding-bottom: 45px;
 }
 
@@ -169,6 +170,39 @@ ul {
 
 .projects-info a {
 	text-decoration: underline;
+}
+
+pre {
+	white-space: pre-wrap;
+ 	/*word-break: break-all;*/
+}
+
+code {
+	font-family: monospace; 
+}
+
+.code-block {
+	padding: 0px 20px;
+	font-size: 14px;
+	color: #939393;
+	background-color: #d5d5d5;
+}
+
+.color-function {
+	font-weight: bold;
+	color: #686868;
+}
+
+.color-name-function {
+	color: #3152c9;
+}
+
+.color-argument {
+	color: #cc9622;
+}
+
+.color-return {
+	color: #11a151;
 }
 
 .footer {
