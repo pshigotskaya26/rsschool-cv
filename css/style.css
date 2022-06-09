@@ -250,6 +250,27 @@ code {
     grid-template-columns: 1fr minmax(auto, 1140px) 1fr;
 }
 
+.footer-container {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+    align-items: center;
+    grid-column: 2 / 3;
+    color: #ffffff;
+    background-color: #24c3d3;
+}
+
+.footer__link-github {
+	justify-self: start;
+	padding-left: 50px;
+}
+
+.footer__link-rss{
+	justify-self: end;
+	padding-right: 50px;
+}
+
 @media (min-width: 767px) {
 	.main {
 		grid-template-rows: 1fr;
