@@ -149,7 +149,6 @@ ul {
 	display: none;
 }
 
-
 .burger-close {
 	position: relative;
 	display: grid;
@@ -191,12 +190,6 @@ ul {
 	width: 30px;
 	height: 4px;
 	background-color: #ffffff;
-}
-
-@media (max-width: 640px) {
-	.burger::before {
-		
-	}
 }
 
 .burger span {
