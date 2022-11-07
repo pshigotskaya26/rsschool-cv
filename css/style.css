@@ -453,6 +453,9 @@ pre {
 code {
 	font-family: monospace; 
 }
+.code-text {
+	padding-bottom: 10px;
+}
 
 .code-block {
 	padding: 0px 20px;

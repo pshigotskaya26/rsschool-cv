@@ -173,7 +173,7 @@
 										<img class="project-card__image" src="assets/img/project-online-zoo-photo.jpg" alt="photo of online-zoo project">
 									</a>
 										<div class="project-card__info">
-										<a href="" class="project-card-btn">Code</a>
+										<a href="https://github.com/pshigotskaya26/online-zoo/tree/online-zoo" class="project-card-btn" target="_blank">Code</a>
 										<div class="project-card__technology">
 											<img class="technology-icon" src="assets/icons/html-icon.png" alt="photo of html icon" title="HTML5">
 											<img class="technology-icon" src="assets/icons/css-icon.png" alt="photo of css icon" title="CSS3">
@@ -190,7 +190,7 @@
 										<img class="project-card__image" src="assets/img/project-play-gem-puzzle-photo.jpg" alt="photo of gem puzzle play project">
 									</a>
 										<div class="project-card__info">
-										<a href="" class="project-card-btn">Code</a>
+										<a href="https://github.com/pshigotskaya26/gem-puzzle/tree/gem-puzzle" class="project-card-btn" target="_blank">Code</a>
 										<div class="project-card__technology">
 											<img class="technology-icon" src="assets/icons/html-icon.png" alt="photo of html icon" title="HTML5">
 											<img class="technology-icon" src="assets/icons/css-icon.png" alt="photo of css icon" title="CSS3">
@@ -207,7 +207,7 @@
 										<img class="project-card__image" src="assets/img/project-momentum-photo.jpg" alt="photo of momentum project">
 									</a>
 										<div class="project-card__info">
-										<a href="" class="project-card-btn">Code</a>
+										<a href="https://github.com/pshigotskaya26/momentum/tree/momentum" class="project-card-btn" target="_blank">Code</a>
 										<div class="project-card__technology">
 											<img class="technology-icon" src="assets/icons/html-icon.png" alt="photo of html icon" title="HTML5">
 											<img class="technology-icon" src="assets/icons/css-icon.png" alt="photo of css icon" title="CSS3">
@@ -223,7 +223,7 @@
 										<img class="project-card__image" src="assets/img/project-travel-photo.jpg" alt="photo of travel project">
 									</a>
 										<div class="project-card__info">
-										<a href="" class="project-card-btn">Code</a>
+										<a href="https://github.com/pshigotskaya26/travel/tree/travel" class="project-card-btn" target="_blank">Code</a>
 										<div class="project-card__technology">
 											<img class="technology-icon" src="assets/icons/html-icon.png" alt="photo of html icon" title="HTML5">
 											<img class="technology-icon" src="assets/icons/css-icon.png" alt="photo of css icon" title="CSS3">
@@ -240,7 +240,7 @@
 										<img class="project-card__image" src="assets/img/project-eldrich-photo.jpg" alt="photo of eldritch play project">
 									</a>
 										<div class="project-card__info">
-										<a href="https://github.com/pshigotskaya26/codejam-eldritch/tree/gh-pages" class="project-card-btn" target="_blank">Code</a>
+										<a href="https://github.com/pshigotskaya26/codejam-eldritch/tree/codejam" class="project-card-btn" target="_blank">Code</a>
 										<div class="project-card__technology">
 											<img class="technology-icon" src="assets/icons/html-icon.png" alt="photo of html icon" title="HTML5">
 											<img class="technology-icon" src="assets/icons/css-icon.png" alt="photo of css icon" title="CSS3">
@@ -260,12 +260,13 @@
 				<section class="code" id="code">
 					<h2 class="section-title">Code example</h2>
 					<div class="code-info">
+						<p class="code-text"><b>The task from codewars.com:</b><br><i>"In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number."</i></p>
 						<div class="code-block">
 							<pre>
 								<code>
-<span class="color-function">function</span> <span class="color-name-function">otherAngle</span>(<span class="color-argument">a</span>, <span class="color-argument">b</span>) {
-	let sumAngles = 180;
-	<span class="color-return">return</span> (sumAngles - a - b);
+const <span class="color-name-function">highAndLow</span> = (<span class="color-argument">numbers</span>) => {
+	let sortArray = numbers.split(' ').sort((a, b) => a - b);
+	<span class="color-return">return</span> (sortArray.slice(-1)).concat(sortArray.slice(0, 1)).join(' ');
 }
 								</code>
 							</pre>
