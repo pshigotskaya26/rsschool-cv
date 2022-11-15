@@ -22,12 +22,11 @@ I am responsible for the performance of my work. I can work in multitasking and 
 * HTML5
 * CSS3
 * JavaScript
-*  GIT
+* GIT
 * БЭМ
 * SCSS
 * React
-* Jquery
-* SublimeText, VSCode, WebShtorm
+* SublimeText, VSCode
 * Wordpress
 * Photoshop
 
@@ -39,10 +38,11 @@ I am responsible for the performance of my work. I can work in multitasking and 
 
 **The solution of the task:**
 ```
-function otherAngle(a, b) {
-  let sumAngles = 180;
-  return (sumAngles - a - b);
+const highAndLow = (numbers) => {
+	let sortArray = numbers.split(' ').sort((a, b) => a - b);
+	return (sortArray.slice(-1)).concat(sortArray.slice(0, 1)).join(' ');
 }
+
 ```
 ## Work experience:
 
