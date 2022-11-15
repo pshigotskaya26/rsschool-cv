@@ -41,7 +41,7 @@ ul {
 	grid-area: header;
 	display: grid;
 	grid-template-rows: 1fr;
-	grid-template-columns: 1fr minmax(auto, 1140px) 1fr;
+	grid-template-columns: 1fr minmax(auto, 1440px) 1fr;
 }
 
 .body-hidden {
@@ -354,16 +354,107 @@ ul {
 	background-color: #24c3d3;
 }
 
+.project__block {
+	padding-top: 30px;
+}
+
+.project__row {
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+	row-gap: 50px;
+	column-gap: 20px;
+}
+
+@media (max-width: 960px) {
+
+	.project__row {
+		justify-content: center;
+	}
+  
+  }
+
+
+.project-card {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.project-card__link:hover .project-card__image {
+	transform: scale(1.05);
+  	transition: all 0.5s ease-out;
+}
+
+.project-card__title {
+	padding-bottom: 15px;
+	text-align: center;
+	color: #24c3d3;
+}
+
+.project-card__link:hover .project-card__title {
+	color: #08919f;
+	transition: all 0.3s ease-out;
+}
+.project-card__link {
+	position: relative;
+	display: block;
+	padding-bottom: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.project-card__link img {
+	display: block;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.project-card__info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.project-card-btn {
+	padding: 3px 10px;
+	color: #fff;
+	background-color: #24c3d3;
+}
+
+.project-card-btn:hover {
+	background-color: #08919f;
+	transition: all 0.3s ease-out;
+}
+
+.project-card__technology {
+	display: flex;
+	justify-content: flex-end;
+	column-gap: 5px;
+}
+
+.technology-icon {
+	width: 30px;
+	height: auto;
+}
+
+/*
 .projects-info a {
 	text-decoration: underline;
 }
-
+*/
 pre {
 	white-space: pre-wrap;
 }
 
 code {
 	font-family: monospace; 
+}
+.code-text {
+	padding-bottom: 10px;
 }
 
 .code-block {
@@ -432,7 +523,7 @@ code {
 	display: grid;
 	grid-area: footer;
 	grid-template-rows: 1fr;
-    grid-template-columns: 1fr minmax(auto, 1140px) 1fr;
+    grid-template-columns: 1fr minmax(auto, 1440px) 1fr;
 }
 
 .footer-container {
@@ -459,7 +550,7 @@ code {
 @media (min-width: 767px) {
 	.main {
 		grid-template-rows: 1fr;
-		grid-template-columns: 1fr minmax(auto, 300px) minmax(auto, 840px) 1fr;
+		grid-template-columns: 1fr minmax(auto, 300px) minmax(auto, 1140px) 1fr;
 	}
 
 	.sidebar {
