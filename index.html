@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="body">
-    <div class="wrapper">
-		<header class="header">
+	<header class="header">
 			<div class="body-hidden hidden"></div>
-			<div class="header-container">
-				<nav class="header-navigation">
-					<ul class="header-navigation__list">
+			<div class="container header__container">
+				<nav class="header__navigation">
+					<ul class="header-navigation">
 						<li class="header-navigation__item"><a href="#about" class="header-navigation__link">About me</a></li>
 						<li class="header-navigation__item"><a href="#skills" class="header-navigation__link">Skills</a></li>
 						<li class="header-navigation__item"><a href="#projects" class="header-navigation__link">Projects</a></li>
@@ -33,11 +32,12 @@
 					</div>
 				</div>
 			</div>
-		</header>
-		<main class="main">
+	</header>
+	<main class="main">
+		<div class="container main__container">
 			<aside class="sidebar">
-				<div class="photo__block">
-					<img class="photo__img" src="assets/img/photo.jpg" alt="my photo">
+				<div class="sidebar__image">
+					<img class="sidebar-img" src="assets/img/photo.jpg" alt="my photo">
 				</div>
 				<section class="contacts" id="contacts">
 					<h2 class="section-title section-title__sidebar">Contacts</h2>
@@ -99,12 +99,13 @@
 					</div>
 				</section>
 			</aside>
-			<section class="content">
-				<h1 class="content-title">Tatsiana Pshihotskaya</h1>
-				<p class="content-text">Junior Front-end developer</p>
-				<div class="content__block">
-					<img class="content__img" src="assets/img/photo.jpg" alt="my photo">
+			<section class="main-content">
+				<h1 class="content__title">Tatsiana Pshihotskaya</h1>
+				<p class="content__text">Junior Front-end developer</p>
+				<div class="content__image">
+					<img class="content-img" src="assets/img/photo.jpg" alt="my photo">
 				</div>
+
 				<section class="about" id="about">
 					<h2 class="section-title">About me</h2>
 					<div class="about-info">
@@ -114,56 +115,62 @@
 						<p>I am responsible for the performance of my work. I can work in multitasking and do it qualitatively. I study on my own and develop my skills in the field of Frontend development.</p>
 					</div>
 				</section>
+
 				<section class="skills" id="skills">
 					<h2 class="section-title">Skills</h2>
 					<div class="skills-info">
-						<div class="skills-block">
-							<p class="skills-text">Html5</p>
-							<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
+						<div class="skills-item">
+							<div class="skills-block">
+								<p class="skills-text">Html5</p>
+								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
+							</div>
+							<div class="skills-block">
+								<p class="skills-text">Css3</p>
+								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
+							</div>
+							<div class="skills-block">
+								<p class="skills-text">JavaScript</p>
+								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
+							</div>
+							<div class="skills-block">
+								<p class="skills-text">Git</p>
+								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
+							</div>
+							<div class="skills-block">
+								<p class="skills-text">БЭМ</p>
+								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
+							</div>
+							<div class="skills-block">
+								<p class="skills-text">SCSS</p>
+								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
+							</div>
 						</div>
-						<div class="skills-block">
-							<p class="skills-text">Css3</p>
-							<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-						</div>
-						<div class="skills-block">
-							<p class="skills-text">JavaScript</p>
-							<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-						</div>
-						<div class="skills-block">
-							<p class="skills-text">Git</p>
-							<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-						</div>
-						<div class="skills-block">
-							<p class="skills-text">БЭМ</p>
-							<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-						</div>
-						<div class="skills-block">
-							<p class="skills-text">SCSS</p>
-							<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-						</div>
-						<div class="skills-block">
-							<p class="skills-text">React</p>
-							<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item "></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-						</div>
-
-						<div class="skills-block">
-							<p class="skills-text">SublimeText</p>
-							<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-						</div>
-						<div class="skills-block">
-							<p class="skills-text">VSCode</p>
-							<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-						</div>
-						<div class="skills-block">
-							<p class="skills-text">Wordpress</p>
-							<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item "></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-						</div>
-						<div class="skills-block">
-							<p class="skills-text">Photoshop</p>
-							<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span></p>
+						<div class="skills-item">
+							<div class="skills-block">
+								<p class="skills-text">React</p>
+								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item "></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
+							</div>
+	
+							<div class="skills-block">
+								<p class="skills-text">SublimeText</p>
+								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
+							</div>
+							<div class="skills-block">
+								<p class="skills-text">VSCode</p>
+								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
+							</div>
+							<div class="skills-block">
+								<p class="skills-text">Wordpress</p>
+								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item "></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
+							</div>
+							<div class="skills-block">
+								<p class="skills-text">Photoshop</p>
+								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span></p>
+							</div>
 						</div>
 					</div>
 				</section>
+
 				<section class="projects" id="projects">
 					<h2 class="section-title">Projects</h2>
 					<div class="projects-info">
@@ -360,15 +367,15 @@ const <span class="color-name-function">highAndLow</span> = (<span class="color-
 					</div>
 				</section>
 			</section>
-		</main>
-		<footer class="footer">
-			<div class="footer-container">
-				<a class="footer__link-github" href="https://github.com/pshigotskaya26" target="_blank"><img src="assets/icons/github-logo-35.png" alt="github-logo"></a>
-				<p>2022</p>
-				<a class="footer__link-rss" href="https://rs.school/js/" target="_blank"><img src="assets/icons/rs-school-logo-35.png" alt="rs school logo"></a>
-			</div>
-		</footer>
-	</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container footer__container">
+			<a class="footer__link-github" href="https://github.com/pshigotskaya26" target="_blank"><img src="assets/icons/github-logo-35.png" alt="github-logo"></a>
+			<p>2022</p>
+			<a class="footer__link-rss" href="https://rs.school/js/" target="_blank"><img src="assets/icons/rs-school-logo-35.png" alt="rs school logo"></a>
+		</div>
+	</footer>
 	<script src="js/script.js"></script>
 </body>
 </html>
