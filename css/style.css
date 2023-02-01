@@ -587,3 +587,14 @@ code {
 	justify-self: end;
 	padding-right: 50px;
 }
+
+.note {
+	padding: 10px 0;
+	font-size: 15px;
+	color: #acacac;
+}
+
+.note-link {
+	color: #808080;
+	text-decoration: underline;
+}
