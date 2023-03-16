@@ -1,336 +1,853 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Tatsiana Pshihotskaya (CV)</title>
-	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="body">
-	<header class="header">
-			<div class="body-hidden hidden"></div>
-			<div class="container header__container">
-				<nav class="header__navigation">
-					<ul class="header-navigation">
-						<li class="header-navigation__item"><a href="#about" class="header-navigation__link">About me</a></li>
-						<li class="header-navigation__item"><a href="#skills" class="header-navigation__link">Skills</a></li>
-						<li class="header-navigation__item"><a href="#projects" class="header-navigation__link">Projects</a></li>
-						<li class="header-navigation__item"><a href="#code" class="header-navigation__link">Code</a></li>
-						<li class="header-navigation__item"><a href="#education" class="header-navigation__link">Education</a></li>
-						<li class="header-navigation__item"><a href="#experience" class="header-navigation__link">Work experience</a></li>
-						<li class="header-navigation__item"><a href="#contacts" class="header-navigation__link">Contacts</a></li>
-					</ul>
-				</nav>
-				<div class="header__burger">
-					<div class="burger">
-						<span></span>
-					</div>
-					<div class="burger-close hidden">
-						<span></span>
-					</div>
-				</div>
-			</div>
-	</header>
-	<main class="main">
-		<div class="container main__container">
-			<aside class="sidebar">
-				<div class="sidebar__image">
-					<img class="sidebar-img" src="assets/img/photo.jpg" alt="my photo">
-				</div>
-				<section class="contacts" id="contacts">
-					<h2 class="section-title section-title__sidebar">Contacts</h2>
-					<div class="contacts__info">
-						<ul class="contacts__list">
-							<li class="contacts__item"><i class="fa fa-home" aria-hidden="true"></i><br>Minsk, Belarus</li>
-							<li class="contacts__item"><i class="fa fa-mobile" aria-hidden="true"></i><br><a href="tel:+375295408722">+37529&nbsp;540&#8209;87&#8209;22</a></li>
-							<li class="contacts__item"><i class="fa fa-envelope-o" aria-hidden="true"></i><br><a href="mailto:pshihotskaya.tanya@gmail.com">pshihotskaya.tanya@gmail.com</a></li>
-							<li class="contacts__item"><b>Discord:</b> <br>Tatsiana Pshihotskaya#0413</li>
-						</ul>
-					</div>
-				</section>
-				<section class="education" id="education">
-					<h2 class="section-title section-title__sidebar">Education</h2>
-					<div class="education__info">
-						<div class="education__block">
-							<p class="education__date">2006 - 2011</p>
-							<p class="education__place">International Sakharov Environmental Institute of Belarusian State University</p>
-							<p class="education__speciality">Speciality: Information Systems and Technologies (in ecology)</p>
-						</div>
-						<div class="education__block">
-							<p class="education__date">2012 - 2014</p>
-							<p class="education__place">Institute of Information Technologies BSUIR</p>
-							<p class="education__speciality">Speciality: Web-programming</p>
-						</div>
-					</div>
-				</section>
-				<section class="courses" id="courses">
-					<h2 class="section-title section-title__sidebar">Courses</h2>
-					<div class="courses__info">
-						<div class="courses__block">
-							<p class="courses__date">2016 - 2016</p>
-							<p class="courses__course">Course "JavaScript web-programming"</p>
-							<p class="courses__place">Learning technology center</p>
-						</div>
-						<div class="courses__block">
-							<p class="courses__date">2022 - 2022</p>
-							<p class="courses__course">RS School Course "JS / Front-end, stage 0" (finished), <a href="assets/img/sertificate-pre-JS-2022.pdf" class="sertificate-link" target="_blank">sertificate</a></p>
-							<p class="courses__place">RS School</p>
-						</div>
-						<div class="courses__block">
-							<p class="courses__date">2022 - 2022</p>
-							<p class="courses__course">RS School Course "JS / Front-end, stage 1" (in progress)</p>
-							<p class="courses__place">RS School</p>
-						</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tatsiana Pshihotskaya (CV)</title>
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="body-hidden hidden"></div>
+      <div class="container header__container">
+        <nav class="header__navigation">
+          <ul class="header-navigation">
+            <li class="header-navigation__item">
+              <a href="#about" class="header-navigation__link">About me</a>
+            </li>
+            <li class="header-navigation__item">
+              <a href="#skills" class="header-navigation__link">Skills</a>
+            </li>
+            <li class="header-navigation__item">
+              <a href="#projects" class="header-navigation__link">Projects</a>
+            </li>
+            <li class="header-navigation__item">
+              <a href="#code" class="header-navigation__link">Code</a>
+            </li>
+            <li class="header-navigation__item">
+              <a href="#education" class="header-navigation__link">Education</a>
+            </li>
+            <li class="header-navigation__item">
+              <a href="#experience" class="header-navigation__link"
+                >Work experience</a
+              >
+            </li>
+            <li class="header-navigation__item">
+              <a href="#contacts" class="header-navigation__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__burger">
+          <div class="burger">
+            <span></span>
+          </div>
+          <div class="burger-close hidden">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main__container">
+        <aside class="sidebar">
+          <div class="sidebar__image">
+            <img
+              class="sidebar-img"
+              src="assets/img/photo.jpg"
+              alt="my photo"
+            />
+          </div>
+          <section class="contacts" id="contacts">
+            <h2 class="section-title section-title__sidebar">Contacts</h2>
+            <div class="contacts__info">
+              <ul class="contacts__list">
+                <li class="contacts__item">
+                  <i class="fa fa-home" aria-hidden="true"></i><br />Minsk,
+                  Belarus
+                </li>
+                <li class="contacts__item">
+                  <i class="fa fa-mobile" aria-hidden="true"></i><br /><a
+                    href="tel:+375295408722"
+                    >+37529&nbsp;540&#8209;87&#8209;22</a
+                  >
+                </li>
+                <li class="contacts__item">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i><br /><a
+                    href="mailto:pshihotskaya.tanya@gmail.com"
+                    >pshihotskaya.tanya@gmail.com</a
+                  >
+                </li>
+                <li class="contacts__item">
+                  <b>Discord:</b> <br />Tatsiana Pshihotskaya#0413
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="education" id="education">
+            <h2 class="section-title section-title__sidebar">Education</h2>
+            <div class="education__info">
+              <div class="education__block">
+                <p class="education__date">2006 - 2011</p>
+                <p class="education__place">
+                  International Sakharov Environmental Institute of Belarusian
+                  State University
+                </p>
+                <p class="education__speciality">
+                  Speciality: Information Systems and Technologies (in ecology)
+                </p>
+              </div>
+              <div class="education__block">
+                <p class="education__date">2012 - 2014</p>
+                <p class="education__place">
+                  Institute of Information Technologies BSUIR
+                </p>
+                <p class="education__speciality">Speciality: Web-programming</p>
+              </div>
+            </div>
+          </section>
+          <section class="courses" id="courses">
+            <h2 class="section-title section-title__sidebar">Courses</h2>
+            <div class="courses__info">
+              <div class="courses__block">
+                <p class="courses__date">2022 - 2023</p>
+                <p class="courses__course">
+                  RS School Course "JS / Front-end, stage 1" (finished),
+                  <a
+                    href="https://app.rs.school/certificate/yw5v62yu"
+                    class="sertificate-link"
+                    target="_blank"
+                    >sertificate</a
+                  >
+                </p>
+                <p class="courses__place">RS School</p>
+              </div>
+              <div class="courses__block">
+                <p class="courses__date">2022 - 2022</p>
+                <p class="courses__course">
+                  RS School Course "JS / Front-end, stage 0" (finished),
+                  <a
+                    href="https://app.rs.school/certificate/xzsqhh9b"
+                    class="sertificate-link"
+                    target="_blank"
+                    >sertificate</a
+                  >
+                </p>
+                <p class="courses__place">RS School</p>
+              </div>
+              <div class="courses__block">
+                <p class="courses__date">2016 - 2016</p>
+                <p class="courses__course">
+                  Course "JavaScript web-programming"
+                </p>
+                <p class="courses__place">Learning technology center</p>
+              </div>
 
-						<div class="courses__block">
-							<p class="courses__date">2015 - 2015</p>
-							<p class="courses__course">Course "Contextual advertising in the Internet (Yandex Direct, Google AdWords)"</p>
-							<p class="courses__place">International Education Center "Status"</p>
-						</div>
-					</div>
-				</section>
-				<section class="languages" id="languages">
-					<h2 class="section-title section-title__sidebar">Languages</h2>
-					<div class="languages__info">
-						<p>English: A1</p><br>
-						<p>(I have learned English for beginners using ESHKO tutorial and continue to learn English in Duolingo). I can speak English and sometimes use a google translate.</p>	
-					</div>
-				</section>
-			</aside>
-			<section class="main-content">
-				<h1 class="content__title">Tatsiana Pshihotskaya</h1>
-				<p class="content__text">Junior Front-end developer</p>
-				<div class="content__image">
-					<img class="content-img" src="assets/img/photo.jpg" alt="my photo">
-				</div>
+              <div class="courses__block">
+                <p class="courses__date">2015 - 2015</p>
+                <p class="courses__course">
+                  Course "Contextual advertising in the Internet (Yandex Direct,
+                  Google AdWords)"
+                </p>
+                <p class="courses__place">
+                  International Education Center "Status"
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="languages" id="languages">
+            <h2 class="section-title section-title__sidebar">Languages</h2>
+            <div class="languages__info">
+              <p>English: A1</p>
+              <br />
+              <p>
+                (I have learned English for beginners using ESHKO tutorial and
+                continue to learn English in Duolingo). I can speak English and
+                sometimes use a google translate.
+              </p>
+            </div>
+          </section>
+        </aside>
+        <section class="main-content">
+          <h1 class="content__title">Tatsiana Pshihotskaya</h1>
+          <p class="content__text">Junior Front-end developer</p>
+          <div class="content__image">
+            <img
+              class="content-img"
+              src="assets/img/photo.jpg"
+              alt="my photo"
+            />
+          </div>
 
-				<section class="about" id="about">
-					<h2 class="section-title">About me</h2>
-					<div class="about-info">
-						<p>I’m a junior front-end developer.</p>
-						<p>I have a great desire to develop and improve in the field of Frontend development as a specialist. I have little experience of the creating websites (landing page) made with Wordpress CMS.</p>
-						<p>Also I have experience of the administering and website promoting, the creating and the managing of the advertising campaigns in Yandex and Google, and also experience of development of the advertising models for print and the web.</p>
-						<p>I am responsible for the performance of my work. I can work in multitasking and do it qualitatively. I study on my own and develop my skills in the field of Frontend development.</p>
-					</div>
-				</section>
+          <section class="about" id="about">
+            <h2 class="section-title">About me</h2>
+            <div class="about-info">
+              <p>I’m a junior front-end developer.</p>
+              <p>
+                I have a great desire to develop and improve in the field of
+                Frontend development as a specialist. I have little experience
+                of the creating websites (landing page) made with Wordpress CMS.
+              </p>
+              <p>
+                Also I have experience of the administering and website
+                promoting, the creating and the managing of the advertising
+                campaigns in Yandex and Google, and also experience of
+                development of the advertising models for print and the web.
+              </p>
+              <p>
+                I am responsible for the performance of my work. I can work in
+                multitasking and do it qualitatively. I study on my own and
+                develop my skills in the field of Frontend development.
+              </p>
+            </div>
+          </section>
 
-				<section class="skills" id="skills">
-					<h2 class="section-title">Skills</h2>
-					<div class="skills-info">
-						<div class="skills-item">
-							<div class="skills-block">
-								<p class="skills-text">Html5</p>
-								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-							</div>
-							<div class="skills-block">
-								<p class="skills-text">Css3</p>
-								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-							</div>
-							<div class="skills-block">
-								<p class="skills-text">JavaScript</p>
-								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-							</div>
-							<div class="skills-block">
-								<p class="skills-text">Git</p>
-								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-							</div>
-							<div class="skills-block">
-								<p class="skills-text">БЭМ</p>
-								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-							</div>
-							<div class="skills-block">
-								<p class="skills-text">SCSS</p>
-								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-							</div>
-						</div>
-						<div class="skills-item">
-							<div class="skills-block">
-								<p class="skills-text">React</p>
-								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item "></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-							</div>
-	
-							<div class="skills-block">
-								<p class="skills-text">SublimeText</p>
-								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-							</div>
-							<div class="skills-block">
-								<p class="skills-text">VSCode</p>
-								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-							</div>
-							<div class="skills-block">
-								<p class="skills-text">Wordpress</p>
-								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item "></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span><span class="skills-marker__item"></span></p>
-							</div>
-							<div class="skills-block">
-								<p class="skills-text">Photoshop</p>
-								<p class="skills-marker"><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item skills-marker__item_color"></span><span class="skills-marker__item"></span></p>
-							</div>
-						</div>
-					</div>
-				</section>
+          <section class="skills" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-info">
+              <div class="skills-item">
+                <div class="skills-block">
+                  <p class="skills-text">Html5</p>
+                  <p class="skills-marker">
+                    <span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span>
+                  </p>
+                </div>
+                <div class="skills-block">
+                  <p class="skills-text">Css3</p>
+                  <p class="skills-marker">
+                    <span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span>
+                  </p>
+                </div>
+                <div class="skills-block">
+                  <p class="skills-text">JavaScript</p>
+                  <p class="skills-marker">
+                    <span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span>
+                  </p>
+                </div>
+                <div class="skills-block">
+                  <p class="skills-text">Git</p>
+                  <p class="skills-marker">
+                    <span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span>
+                  </p>
+                </div>
+                <div class="skills-block">
+                  <p class="skills-text">БЭМ</p>
+                  <p class="skills-marker">
+                    <span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span>
+                  </p>
+                </div>
+                <div class="skills-block">
+                  <p class="skills-text">SCSS</p>
+                  <p class="skills-marker">
+                    <span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="skills-item">
+                <div class="skills-block">
+                  <p class="skills-text">React</p>
+                  <p class="skills-marker">
+                    <span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span>
+                  </p>
+                </div>
 
-				<section class="projects" id="projects">
-					<h2 class="section-title">Projects</h2>
-					<div class="projects-info">
-						<a href="https://pshigotskaya26.github.io/rsschool-cv/cv" target="_blank">My CV</a>
-					</div>
-					<div class="project__block">
-						<div class="project__row">
-							<div class="project__item">
-								<div class="project-card">
-									<a class="project-card__link" href="https://rolling-scopes-school.github.io/pshigotskaya26-JSFE2022Q3/songbird/pages/main/index.html" target="_blank">
-										<h3 class="project-card__title">Songbird</h3>
-										<img class="project-card__image" src="assets/img/project-songbird-photo.jpg" alt="photo of songbird project">
-									</a>
-										<div class="project-card__info">
-										<a href="https://github.com/pshigotskaya26/songbird/tree/songbird" class="project-card-btn" target="_blank">Code</a>
-										<div class="project-card__technology">
-											<img class="technology-icon" src="assets/icons/html-icon.png" alt="photo of html icon" title="HTML5">
-											<img class="technology-icon" src="assets/icons/css-icon.png" alt="photo of css icon" title="CSS3">
-											<img class="technology-icon" src="assets/icons/js-icon.png" alt="photo of js icon" title="JS">
-											<img class="technology-icon" src="assets/icons/sass-icon.png" alt="photo of js icon" title="SASS">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="project__item">
-								<div class="project-card">
-									<a class="project-card__link" href="https://rolling-scopes-school.github.io/pshigotskaya26-JSFE2022Q3/online-zoo/pages/main/" target="_blank">
-										<h3 class="project-card__title">Online-zoo</h3>
-										<img class="project-card__image" src="assets/img/project-online-zoo-photo.jpg" alt="photo of online-zoo project">
-									</a>
-										<div class="project-card__info">
-										<a href="https://github.com/pshigotskaya26/online-zoo/tree/online-zoo" class="project-card-btn" target="_blank">Code</a>
-										<div class="project-card__technology">
-											<img class="technology-icon" src="assets/icons/html-icon.png" alt="photo of html icon" title="HTML5">
-											<img class="technology-icon" src="assets/icons/css-icon.png" alt="photo of css icon" title="CSS3">
-											<img class="technology-icon" src="assets/icons/js-icon.png" alt="photo of js icon" title="JS">
-											<img class="technology-icon" src="assets/icons/sass-icon.png" alt="photo of js icon" title="SASS">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="project__item">
-								<div class="project-card">
-									<a class="project-card__link" href="https://rolling-scopes-school.github.io/pshigotskaya26-JSFE2022Q3/gem-puzzle/index.html" target="_blank">
-										<h3 class="project-card__title">Play Gem Puzzle</h3>
-										<img class="project-card__image" src="assets/img/project-play-gem-puzzle-photo.jpg" alt="photo of gem puzzle play project">
-									</a>
-										<div class="project-card__info">
-										<a href="https://github.com/pshigotskaya26/gem-puzzle/tree/gem-puzzle" class="project-card-btn" target="_blank">Code</a>
-										<div class="project-card__technology">
-											<img class="technology-icon" src="assets/icons/html-icon.png" alt="photo of html icon" title="HTML5">
-											<img class="technology-icon" src="assets/icons/css-icon.png" alt="photo of css icon" title="CSS3">
-											<img class="technology-icon" src="assets/icons/js-icon.png" alt="photo of js icon" title="JS">
-											<img class="technology-icon" src="assets/icons/sass-icon.png" alt="photo of js icon" title="SASS">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="project__item">
-								<div class="project-card">
-									<a class="project-card__link" href="https://rolling-scopes-school.github.io/pshigotskaya26-JSFE2022Q3/async-race/" target="_blank">
-										<h3 class="project-card__title">Play Async-Race</h3>
-										<img class="project-card__image" src="assets/img/project-async-race.jpg" alt="photo of async-race play project">
-									</a>
-									<div class="project-card__info">
-										<a href="https://github.com/pshigotskaya26/async-race/tree/async-race" class="project-card-btn" target="_blank">Code</a>
-										<div class="project-card__technology">
-											<img class="technology-icon" src="assets/icons/html-icon.png" alt="photo of html icon" title="HTML5">
-											<img class="technology-icon" src="assets/icons/css-icon.png" alt="photo of css icon" title="CSS3">
-											<img class="technology-icon" src="assets/icons/js-icon.png" alt="photo of js icon" title="JS">
-											<img class="technology-icon" src="assets/icons/sass-icon.png" alt="photo of js icon" title="SASS">
-											<img class="technology-icon" src="assets/icons/webpack-icon.png" alt="photo of js icon" title="Webpack">
-										</div>
-										
-									</div>
-									<p class="note">To run play async-race, clone this <a class="note-link" href="https://github.com/pshigotskaya26/async-race-api">folder</a> and run server</p>
-								</div>
-							</div>
-							<div class="project__item">
-								<div class="project-card">
-									<a class="project-card__link" href="https://rolling-scopes-school.github.io/pshigotskaya26-JSFEPRESCHOOL2022Q2/momentum/" target="_blank">
-										<h3 class="project-card__title">Momentum</h3>
-										<img class="project-card__image" src="assets/img/project-momentum-photo.jpg" alt="photo of momentum project">
-									</a>
-										<div class="project-card__info">
-										<a href="https://github.com/pshigotskaya26/momentum/tree/momentum" class="project-card-btn" target="_blank">Code</a>
-										<div class="project-card__technology">
-											<img class="technology-icon" src="assets/icons/html-icon.png" alt="photo of html icon" title="HTML5">
-											<img class="technology-icon" src="assets/icons/css-icon.png" alt="photo of css icon" title="CSS3">
-											<img class="technology-icon" src="assets/icons/js-icon.png" alt="photo of js icon" title="JS">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="project__item">
-								<div class="project-card">
-									<a class="project-card__link" href="https://rolling-scopes-school.github.io/pshigotskaya26-JSFEPRESCHOOL2022Q2/travel/" target="_blank">
-										<h3 class="project-card__title">Travel</h3>
-										<img class="project-card__image" src="assets/img/project-travel-photo.jpg" alt="photo of travel project">
-									</a>
-										<div class="project-card__info">
-										<a href="https://github.com/pshigotskaya26/travel/tree/travel" class="project-card-btn" target="_blank">Code</a>
-										<div class="project-card__technology">
-											<img class="technology-icon" src="assets/icons/html-icon.png" alt="photo of html icon" title="HTML5">
-											<img class="technology-icon" src="assets/icons/css-icon.png" alt="photo of css icon" title="CSS3">
-											<img class="technology-icon" src="assets/icons/js-icon.png" alt="photo of js icon" title="JS">
-											<img class="technology-icon" src="assets/icons/sass-icon.png" alt="photo of js icon" title="SASS">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="project__item">
-								<div class="project-card">
-									<a class="project-card__link" href="https://pshigotskaya26.github.io/codejam-eldritch/" target="_blank">
-										<h3 class="project-card__title">Play Eldritch</h3>
-										<img class="project-card__image" src="assets/img/project-eldrich-photo.jpg" alt="photo of eldritch play project">
-									</a>
-										<div class="project-card__info">
-										<a href="https://github.com/pshigotskaya26/codejam-eldritch/tree/codejam" class="project-card-btn" target="_blank">Code</a>
-										<div class="project-card__technology">
-											<img class="technology-icon" src="assets/icons/html-icon.png" alt="photo of html icon" title="HTML5">
-											<img class="technology-icon" src="assets/icons/css-icon.png" alt="photo of css icon" title="CSS3">
-											<img class="technology-icon" src="assets/icons/js-icon.png" alt="photo of js icon" title="JS">
-											<img class="technology-icon" src="assets/icons/sass-icon.png" alt="photo of js icon" title="SASS">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="project__item">
-								<div class="project-card">
-									<a class="project-card__link" href="https://sklevzhic.github.io/online-store/" target="_blank">
-										<h3 class="project-card__title">Group project (Online-store)</h3>
-										<img class="project-card__image" src="assets/img/project-online-store.jpg" alt="photo of online-store project">
-									</a>
-									<div class="project-card__info">
-										<a href="https://github.com/pshigotskaya26/online-store-2022/tree/develop" class="project-card-btn" target="_blank">Code</a>
-										<div class="project-card__technology">
-											<img class="technology-icon" src="assets/icons/html-icon.png" alt="photo of html icon" title="HTML5">
-											<img class="technology-icon" src="assets/icons/css-icon.png" alt="photo of css icon" title="CSS3">
-											<img class="technology-icon" src="assets/icons/js-icon.png" alt="photo of js icon" title="JS">
-											<img class="technology-icon" src="assets/icons/sass-icon.png" alt="photo of sass icon" title="SASS">
-											<img class="technology-icon" src="assets/icons/webpack-icon.png" alt="photo of webpack icon" title="Webpack">
-										</div>
-									</div>
-									<p class="note">I implemented cart page</p>
-								</div>
-							</div>
-							<div class="project__item">
-								<div class="project-card">
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="code" id="code">
-					<h2 class="section-title">Code example</h2>
-					<div class="code-info">
-						<p class="code-text"><b>The task from codewars.com:</b><br><i>"In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number."</i></p>
-						<div class="code-block">
-							<pre>
+                <div class="skills-block">
+                  <p class="skills-text">SublimeText</p>
+                  <p class="skills-marker">
+                    <span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span>
+                  </p>
+                </div>
+                <div class="skills-block">
+                  <p class="skills-text">VSCode</p>
+                  <p class="skills-marker">
+                    <span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span>
+                  </p>
+                </div>
+                <div class="skills-block">
+                  <p class="skills-text">Wordpress</p>
+                  <p class="skills-marker">
+                    <span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span
+                    ><span class="skills-marker__item"></span>
+                  </p>
+                </div>
+                <div class="skills-block">
+                  <p class="skills-text">Photoshop</p>
+                  <p class="skills-marker">
+                    <span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span
+                      class="skills-marker__item skills-marker__item_color"
+                    ></span
+                    ><span class="skills-marker__item"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="projects" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-info">
+              <a
+                href="https://pshigotskaya26.github.io/rsschool-cv/cv"
+                target="_blank"
+                >My CV</a
+              >
+            </div>
+            <div class="project__block">
+              <div class="project__row">
+                <div class="project__item">
+                  <div class="project-card">
+                    <a
+                      class="project-card__link"
+                      href="https://rolling-scopes-school.github.io/pshigotskaya26-JSFE2022Q3/songbird/pages/main/index.html"
+                      target="_blank"
+                    >
+                      <h3 class="project-card__title">Songbird</h3>
+                      <img
+                        class="project-card__image"
+                        src="assets/img/project-songbird-photo.jpg"
+                        alt="photo of songbird project"
+                      />
+                    </a>
+                    <div class="project-card__info">
+                      <a
+                        href="https://github.com/pshigotskaya26/songbird/tree/songbird"
+                        class="project-card-btn"
+                        target="_blank"
+                        >Code</a
+                      >
+                      <div class="project-card__technology">
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/html-icon.png"
+                          alt="photo of html icon"
+                          title="HTML5"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/css-icon.png"
+                          alt="photo of css icon"
+                          title="CSS3"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/js-icon.png"
+                          alt="photo of js icon"
+                          title="JS"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/sass-icon.png"
+                          alt="photo of js icon"
+                          title="SASS"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project__item">
+                  <div class="project-card">
+                    <a
+                      class="project-card__link"
+                      href="https://rolling-scopes-school.github.io/pshigotskaya26-JSFE2022Q3/online-zoo/pages/main/"
+                      target="_blank"
+                    >
+                      <h3 class="project-card__title">Online-zoo</h3>
+                      <img
+                        class="project-card__image"
+                        src="assets/img/project-online-zoo-photo.jpg"
+                        alt="photo of online-zoo project"
+                      />
+                    </a>
+                    <div class="project-card__info">
+                      <a
+                        href="https://github.com/pshigotskaya26/online-zoo/tree/online-zoo"
+                        class="project-card-btn"
+                        target="_blank"
+                        >Code</a
+                      >
+                      <div class="project-card__technology">
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/html-icon.png"
+                          alt="photo of html icon"
+                          title="HTML5"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/css-icon.png"
+                          alt="photo of css icon"
+                          title="CSS3"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/js-icon.png"
+                          alt="photo of js icon"
+                          title="JS"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/sass-icon.png"
+                          alt="photo of js icon"
+                          title="SASS"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project__item">
+                  <div class="project-card">
+                    <a
+                      class="project-card__link"
+                      href="https://rolling-scopes-school.github.io/pshigotskaya26-JSFE2022Q3/gem-puzzle/index.html"
+                      target="_blank"
+                    >
+                      <h3 class="project-card__title">Play Gem Puzzle</h3>
+                      <img
+                        class="project-card__image"
+                        src="assets/img/project-play-gem-puzzle-photo.jpg"
+                        alt="photo of gem puzzle play project"
+                      />
+                    </a>
+                    <div class="project-card__info">
+                      <a
+                        href="https://github.com/pshigotskaya26/gem-puzzle/tree/gem-puzzle"
+                        class="project-card-btn"
+                        target="_blank"
+                        >Code</a
+                      >
+                      <div class="project-card__technology">
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/html-icon.png"
+                          alt="photo of html icon"
+                          title="HTML5"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/css-icon.png"
+                          alt="photo of css icon"
+                          title="CSS3"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/js-icon.png"
+                          alt="photo of js icon"
+                          title="JS"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/sass-icon.png"
+                          alt="photo of js icon"
+                          title="SASS"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project__item">
+                  <div class="project-card">
+                    <a
+                      class="project-card__link"
+                      href="https://rolling-scopes-school.github.io/pshigotskaya26-JSFE2022Q3/async-race/"
+                      target="_blank"
+                    >
+                      <h3 class="project-card__title">Play Async-Race</h3>
+                      <img
+                        class="project-card__image"
+                        src="assets/img/project-async-race.jpg"
+                        alt="photo of async-race play project"
+                      />
+                    </a>
+                    <div class="project-card__info">
+                      <a
+                        href="https://github.com/pshigotskaya26/async-race/tree/async-race"
+                        class="project-card-btn"
+                        target="_blank"
+                        >Code</a
+                      >
+                      <div class="project-card__technology">
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/html-icon.png"
+                          alt="photo of html icon"
+                          title="HTML5"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/css-icon.png"
+                          alt="photo of css icon"
+                          title="CSS3"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/js-icon.png"
+                          alt="photo of js icon"
+                          title="JS"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/sass-icon.png"
+                          alt="photo of js icon"
+                          title="SASS"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/webpack-icon.png"
+                          alt="photo of js icon"
+                          title="Webpack"
+                        />
+                      </div>
+                    </div>
+                    <p class="note">
+                      To run play async-race, clone this
+                      <a
+                        class="note-link"
+                        href="https://github.com/pshigotskaya26/async-race-api"
+                        >folder</a
+                      >
+                      and run server
+                    </p>
+                  </div>
+                </div>
+                <div class="project__item">
+                  <div class="project-card">
+                    <a
+                      class="project-card__link"
+                      href="https://rolling-scopes-school.github.io/pshigotskaya26-JSFEPRESCHOOL2022Q2/momentum/"
+                      target="_blank"
+                    >
+                      <h3 class="project-card__title">Momentum</h3>
+                      <img
+                        class="project-card__image"
+                        src="assets/img/project-momentum-photo.jpg"
+                        alt="photo of momentum project"
+                      />
+                    </a>
+                    <div class="project-card__info">
+                      <a
+                        href="https://github.com/pshigotskaya26/momentum/tree/momentum"
+                        class="project-card-btn"
+                        target="_blank"
+                        >Code</a
+                      >
+                      <div class="project-card__technology">
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/html-icon.png"
+                          alt="photo of html icon"
+                          title="HTML5"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/css-icon.png"
+                          alt="photo of css icon"
+                          title="CSS3"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/js-icon.png"
+                          alt="photo of js icon"
+                          title="JS"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project__item">
+                  <div class="project-card">
+                    <a
+                      class="project-card__link"
+                      href="https://rolling-scopes-school.github.io/pshigotskaya26-JSFEPRESCHOOL2022Q2/travel/"
+                      target="_blank"
+                    >
+                      <h3 class="project-card__title">Travel</h3>
+                      <img
+                        class="project-card__image"
+                        src="assets/img/project-travel-photo.jpg"
+                        alt="photo of travel project"
+                      />
+                    </a>
+                    <div class="project-card__info">
+                      <a
+                        href="https://github.com/pshigotskaya26/travel/tree/travel"
+                        class="project-card-btn"
+                        target="_blank"
+                        >Code</a
+                      >
+                      <div class="project-card__technology">
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/html-icon.png"
+                          alt="photo of html icon"
+                          title="HTML5"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/css-icon.png"
+                          alt="photo of css icon"
+                          title="CSS3"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/js-icon.png"
+                          alt="photo of js icon"
+                          title="JS"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/sass-icon.png"
+                          alt="photo of js icon"
+                          title="SASS"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project__item">
+                  <div class="project-card">
+                    <a
+                      class="project-card__link"
+                      href="https://pshigotskaya26.github.io/codejam-eldritch/"
+                      target="_blank"
+                    >
+                      <h3 class="project-card__title">Play Eldritch</h3>
+                      <img
+                        class="project-card__image"
+                        src="assets/img/project-eldrich-photo.jpg"
+                        alt="photo of eldritch play project"
+                      />
+                    </a>
+                    <div class="project-card__info">
+                      <a
+                        href="https://github.com/pshigotskaya26/codejam-eldritch/tree/codejam"
+                        class="project-card-btn"
+                        target="_blank"
+                        >Code</a
+                      >
+                      <div class="project-card__technology">
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/html-icon.png"
+                          alt="photo of html icon"
+                          title="HTML5"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/css-icon.png"
+                          alt="photo of css icon"
+                          title="CSS3"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/js-icon.png"
+                          alt="photo of js icon"
+                          title="JS"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/sass-icon.png"
+                          alt="photo of js icon"
+                          title="SASS"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project__item">
+                  <div class="project-card">
+                    <a
+                      class="project-card__link"
+                      href="https://sklevzhic.github.io/online-store/"
+                      target="_blank"
+                    >
+                      <h3 class="project-card__title">
+                        Group project (Online-store)
+                      </h3>
+                      <img
+                        class="project-card__image"
+                        src="assets/img/project-online-store.jpg"
+                        alt="photo of online-store project"
+                      />
+                    </a>
+                    <div class="project-card__info">
+                      <a
+                        href="https://github.com/pshigotskaya26/online-store-2022/tree/develop"
+                        class="project-card-btn"
+                        target="_blank"
+                        >Code</a
+                      >
+                      <div class="project-card__technology">
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/html-icon.png"
+                          alt="photo of html icon"
+                          title="HTML5"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/css-icon.png"
+                          alt="photo of css icon"
+                          title="CSS3"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/js-icon.png"
+                          alt="photo of js icon"
+                          title="JS"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/sass-icon.png"
+                          alt="photo of sass icon"
+                          title="SASS"
+                        />
+                        <img
+                          class="technology-icon"
+                          src="assets/icons/webpack-icon.png"
+                          alt="photo of webpack icon"
+                          title="Webpack"
+                        />
+                      </div>
+                    </div>
+                    <p class="note">I implemented cart page</p>
+                  </div>
+                </div>
+                <div class="project__item">
+                  <div class="project-card"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="code" id="code">
+            <h2 class="section-title">Code example</h2>
+            <div class="code-info">
+              <p class="code-text">
+                <b>The task from codewars.com:</b><br /><i
+                  >"In this little assignment you are given a string of space
+                  separated numbers, and have to return the highest and lowest
+                  number."</i
+                >
+              </p>
+              <div class="code-block">
+                <pre>
 								<code>
 const <span class="color-name-function">highAndLow</span> = (<span class="color-argument">numbers</span>) => {
 	let sortArray = numbers.split(' ').sort((a, b) => a - b);
@@ -338,83 +855,115 @@ const <span class="color-name-function">highAndLow</span> = (<span class="color-
 }
 								</code>
 							</pre>
-						</div>
-					</div>
-				</section>
-				<section class="experience" id="experience">
-					<h2 class="section-title">Work experience</h2>
-					<div class="experience-info">
-						<div class="experience-item">
-							<h3 class="experience__title">Site administrator</h3>
-							<div class="experience__work">
-								<p class="experience__workplace">LLC World of the construction and rent</p>
-								<p class="experience__date">June 2015 - in present</p>
-							</div>
-							<div class="experience__responsibilities">
-								<ul class="experience__list">
-									<li>WebSite administration (site filling, website technical support).</li>
-									<li>Redesign of two sites.</li>
-									<li>Development of the advertising models for print and the web (in Photoshop).</li>
-									<li>Creating and managing of the advertising campaigns in Yandex and Google.</li>
-									<li>Website promoting.</li>
-									<li>Writing unique articles.</li>
-									<li>Finding and fixing website errors.</li>
-									<li>Management groups in social network (Vkontakte).</li>
-									<li>Working with catalogs (Deal.by, pulscen.by, onliner.by, etc.).</li>
-								</ul>
-							</div>
-						</div>
-						<div class="experience-item">
-							<h3 class="experience__title">Web-master</h3>
-							<div class="experience__work">
-								<p class="experience__workplace">PUE Domogor</p>
-								<p class="experience__date">June 2014 - Jan. 2015</p>
-							</div>
-							<div class="experience__responsibilities">
-								<ul class="experience__list">
-									<li>Site filling with articles (reading the articles, article optimization).</li>
-									<li>Management groups in social networks (Vkontakte, facebook).</li>
-									<li>Communication with clients.</li>
-								</ul>
-							</div>
-						</div>
-						<div class="experience-item">
-							<h3 class="experience__title">Internet resource editor</h3>
-							<div class="experience__work">
-								<p class="experience__workplace">LLC Dom Media</p>
-								<p class="experience__date">Mar. 2014 - May 2014</p>
-							</div>
-							<div class="experience__responsibilities">
-								<ul class="experience__list">
-									<li>Placing information on the www.dom.by portal.</li>
-								</ul>
-							</div>
-						</div>
-						<div class="experience-item">
-							<h3 class="experience__title">Engineer-programmer</h3>
-							<div class="experience__work">
-								<p class="experience__workplace">RUE Institute for Land Reclamation</p>
-								<p class="experience__date">Apr. 2011 - July 2013</p>
-							</div>
-							<div class="experience__responsibilities">
-								<ul class="experience__list">
-									<li>Linking the geographic maps and  their vectorization in ArcGIS10.</li>
-									<li>VisualBasic programming.</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</section>
-			</section>
-		</div>
-	</main>
-	<footer class="footer">
-		<div class="container footer__container">
-			<a class="footer__link-github" href="https://github.com/pshigotskaya26" target="_blank"><img src="assets/icons/github-logo-35.png" alt="github-logo"></a>
-			<p>2022</p>
-			<a class="footer__link-rss" href="https://rs.school/js/" target="_blank"><img src="assets/icons/rs-school-logo-35.png" alt="rs school logo"></a>
-		</div>
-	</footer>
-	<script src="js/script.js"></script>
-</body>
+              </div>
+            </div>
+          </section>
+          <section class="experience" id="experience">
+            <h2 class="section-title">Work experience</h2>
+            <div class="experience-info">
+              <div class="experience-item">
+                <h3 class="experience__title">Site administrator</h3>
+                <div class="experience__work">
+                  <p class="experience__workplace">
+                    LLC World of the construction and rent
+                  </p>
+                  <p class="experience__date">June 2015 - in present</p>
+                </div>
+                <div class="experience__responsibilities">
+                  <ul class="experience__list">
+                    <li>
+                      WebSite administration (site filling, website technical
+                      support).
+                    </li>
+                    <li>Redesign of two sites.</li>
+                    <li>
+                      Development of the advertising models for print and the
+                      web (in Photoshop).
+                    </li>
+                    <li>
+                      Creating and managing of the advertising campaigns in
+                      Yandex and Google.
+                    </li>
+                    <li>Website promoting.</li>
+                    <li>Writing unique articles.</li>
+                    <li>Finding and fixing website errors.</li>
+                    <li>Management groups in social network (Vkontakte).</li>
+                    <li>
+                      Working with catalogs (Deal.by, pulscen.by, onliner.by,
+                      etc.).
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="experience-item">
+                <h3 class="experience__title">Web-master</h3>
+                <div class="experience__work">
+                  <p class="experience__workplace">PUE Domogor</p>
+                  <p class="experience__date">June 2014 - Jan. 2015</p>
+                </div>
+                <div class="experience__responsibilities">
+                  <ul class="experience__list">
+                    <li>
+                      Site filling with articles (reading the articles, article
+                      optimization).
+                    </li>
+                    <li>
+                      Management groups in social networks (Vkontakte,
+                      facebook).
+                    </li>
+                    <li>Communication with clients.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="experience-item">
+                <h3 class="experience__title">Internet resource editor</h3>
+                <div class="experience__work">
+                  <p class="experience__workplace">LLC Dom Media</p>
+                  <p class="experience__date">Mar. 2014 - May 2014</p>
+                </div>
+                <div class="experience__responsibilities">
+                  <ul class="experience__list">
+                    <li>Placing information on the www.dom.by portal.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="experience-item">
+                <h3 class="experience__title">Engineer-programmer</h3>
+                <div class="experience__work">
+                  <p class="experience__workplace">
+                    RUE Institute for Land Reclamation
+                  </p>
+                  <p class="experience__date">Apr. 2011 - July 2013</p>
+                </div>
+                <div class="experience__responsibilities">
+                  <ul class="experience__list">
+                    <li>
+                      Linking the geographic maps and their vectorization in
+                      ArcGIS10.
+                    </li>
+                    <li>VisualBasic programming.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <a
+          class="footer__link-github"
+          href="https://github.com/pshigotskaya26"
+          target="_blank"
+          ><img src="assets/icons/github-logo-35.png" alt="github-logo"
+        /></a>
+        <p>2022</p>
+        <a class="footer__link-rss" href="https://rs.school/js/" target="_blank"
+          ><img src="assets/icons/rs-school-logo-35.png" alt="rs school logo"
+        /></a>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
 </html>
