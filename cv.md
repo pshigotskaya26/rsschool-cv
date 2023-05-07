@@ -9,7 +9,7 @@
 
 ## About me:
 
-I ama junior front-end developer.
+I am a junior front-end developer.
 
 I have a great desire to develop and improve in the field of Frontend development as a specialist.
 
