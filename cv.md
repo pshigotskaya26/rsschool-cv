@@ -2,12 +2,14 @@
 
 ## Contact info:
 
-* Town: Minsk, Belarus
-* Phone: +37529 540-87-22
-* Email: pshihotskaya.tanya@gmail.com
-* GitHub: [pshigotskaya26](https://github.com/pshigotskaya26)
+- Town: Minsk, Belarus
+- Phone: +37529 540-87-22
+- Email: pshihotskaya.tanya@gmail.com
+- GitHub: [pshigotskaya26](https://github.com/pshigotskaya26)
 
 ## About me:
+
+I ama junior front-end developer.
 
 I have a great desire to develop and improve in the field of Frontend development as a specialist.
 
@@ -19,24 +21,27 @@ I am responsible for the performance of my work. I can work in multitasking and 
 
 ## Skills:
 
-* HTML5
-* CSS3
-* JavaScript
-* GIT
-* БЭМ
-* SCSS
-* React
-* SublimeText, VSCode
-* Wordpress
-* Photoshop
+- HTML5
+- CSS3
+- JavaScript
+- GIT
+- БЭМ
+- SCSS
+- React, Redux Toolkit
+- Typescript
+- Webpack
+- SublimeText, VSCode
+- Wordpress
+- Photoshop
 
 ## Code example:
 
 **The task from Codewars:**
 
-*You are given two interior angles (in degrees) of a triangle. Write a function to return the 3rd. Note: only positive integers will be tested.*
+_You are given two interior angles (in degrees) of a triangle. Write a function to return the 3rd. Note: only positive integers will be tested._
 
 **The solution of the task:**
+
 ```
 const highAndLow = (numbers) => {
 	let sortArray = numbers.split(' ').sort((a, b) => a - b);
@@ -44,6 +49,7 @@ const highAndLow = (numbers) => {
 }
 
 ```
+
 ## Work experience:
 
 [https://pshigotskaya26.github.io/rsschool-cv/cv](https://pshigotskaya26.github.io/rsschool-cv/cv)
@@ -52,24 +58,25 @@ const highAndLow = (numbers) => {
 
 ### **Education:**
 
-* International Sakharov Environmental Institute of Belarusian State University.
+- International Sakharov Environmental Institute of Belarusian State University.
 
-    + Information Systems and Technologies (in ecology)
+  - Information Systems and Technologies (in ecology)
 
-
-* Institute of Information Technologies BSUIR.
+- Institute of Information Technologies BSUIR.
 
 ### **Courses:**
 
-* Course "JavaScript web-programming" (Learning technology center), 2016 year.
+- RS School Course "React" (in progress).
 
-* Course "Contextual advertising in the Internet (Yandex Direct, Google AdWords)" (International Education Center "Status"), 2015 year.
+- Course "React JS – the samurai way" on YouTube channel It-kamasutra (in progress).
 
-* Course "React JS – the samurai way" on YouTube channel It-kamasutra (in progress).
+- JavaScript tutorial on learn.javascript.ru (2023 year).
 
-* JavaScript tutorial on learn.javascript.ru (in progress).
+- RS School Course "JS / Front-end, stage 0" (2022 year).
 
-* RS School Course "JS / Front-end, stage 0" (in progress).
+- Course "JavaScript web-programming" (Learning technology center), 2016 year.
+
+- Course "Contextual advertising in the Internet (Yandex Direct, Google AdWords)" (International Education Center "Status"), 2015 year.
 
 ### **The books I have read and completed all the tasks in them:**
 
@@ -79,7 +86,7 @@ const highAndLow = (numbers) => {
 
 ## Languages:
 
-**English level:** A1
+**English level:** A2
 
 (I have learned English for beginners using ESHKO tutorial and continue to learn English in Duolingo).
 
