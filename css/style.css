@@ -466,6 +466,11 @@ ul {
   align-items: center;
 }
 
+.project-card__buttons {
+  display: flex;
+  column-gap: 5px;
+}
+
 .project-card-btn {
   padding: 3px 10px;
   color: #fff;
